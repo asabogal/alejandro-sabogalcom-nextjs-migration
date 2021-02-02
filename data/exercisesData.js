@@ -1,5 +1,5 @@
-import pig_game from '../Images/projectImages/pig-game.png'
-import memory_game from '../Images/projectImages/memory_game.png'
+import pig_game from '../public/images/projectImages/pig-game.png'
+import memory_game from '../public/images/projectImages/memory_game.png'
 
 export const exercisesData = [
   {
