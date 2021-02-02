@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import Helmet from 'react-helmet';
+import Layout from '../components/navigation/Layout';
+import '../components/utils/buttons.css';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -27,7 +29,10 @@ export default function App({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet" />       
       </Helmet>
       <GlobalStyle />
+      <Layout>
         <Component {...pageProps} />
+      </Layout>
+ 
     </>
   )
 }
