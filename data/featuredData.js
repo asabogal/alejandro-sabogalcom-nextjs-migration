@@ -1,7 +1,7 @@
-import crypto1 from '../Images/featured_images/cryptofolio.png';
-import crypto2 from '../Images/featured_images/cryptofolio2.png';
-import recordbox from '../Images/featured_images/recordbox.png';
-import recordbox2 from '../Images/featured_images/recordbox2.png';
+import crypto1 from '../public/images/featured_images/cryptofolio.png';
+import crypto2 from '../public/images/featured_images/cryptofolio2.png';
+import recordbox from '../public/images/featured_images/recordbox.png';
+import recordbox2 from '../public/images/featured_images/recordbox2.png';
 
 export const featuredData = [
   {
