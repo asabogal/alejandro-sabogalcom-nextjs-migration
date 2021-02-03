@@ -1,20 +1,20 @@
-import cryptoHome from '../Images/project_images/cryptofolio/home.png';
-import intervalHome from '../Images/project_images/interval/home.png';
-import recordboxHome from '../Images/project_images/recordbox/home.png';
-import uefaHome from '../Images/project_images/uefa/home.png';
-import djchartsHome from '../Images/project_images/djcharts/home.png';
+import cryptoHome from '../public/images/project_images/cryptofolio/home.png';
+import intervalHome from '../public/images/project_images/interval/home.png';
+import recordboxHome from '../public/images/project_images/recordbox/home.png';
+import uefaHome from '../public/images/project_images/uefa/home.png';
+import djchartsHome from '../public/images/project_images/djcharts/home.png';
 
-import cryptoFeatured from '../Images/project_images/cryptofolio/featured.png';
-import intervalFeatured from '../Images/project_images/interval/featured.png';
-import recordboxFeatured from '../Images/project_images/recordbox/featured.png';
-import uefaFeatured from '../Images/project_images/uefa/featured.png';
-import djchartsFeatured from '../Images/project_images/djcharts/featured.png';
+import cryptoFeatured from '../public/images/project_images/cryptofolio/featured.png';
+import intervalFeatured from '../public/images/project_images/interval/featured.png';
+import recordboxFeatured from '../public/images/project_images/recordbox/featured.png';
+import uefaFeatured from '../public/images/project_images/uefa/featured.png';
+import djchartsFeatured from '../public/images/project_images/djcharts/featured.png';
 
-import cryptoDevices from '../Images/project_images/cryptofolio/devices.png';
-import recordboxDevices from '../Images/project_images/recordbox/devices.png';
-import intervalDevices from '../Images/project_images/interval/devices.png';
-import uefaDevices from '../Images/project_images/uefa/devices.png';
-import djchartsDevices from '../Images/project_images/djcharts/devices.png';
+import cryptoDevices from '../public/images/project_images/cryptofolio/devices.png';
+import recordboxDevices from '../public/images/project_images/recordbox/devices.png';
+import intervalDevices from '../public/images/project_images/interval/devices.png';
+import uefaDevices from '../public/images/project_images/uefa/devices.png';
+import djchartsDevices from '../public/images/project_images/djcharts/devices.png';
 
 export const projectData = [
   {
