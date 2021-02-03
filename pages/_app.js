@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { useRouter } from 'next/router';
 import Helmet from 'react-helmet';
 import Layout from '../components/navigation/Layout';
 import '../components/utils/buttons.css';
@@ -18,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default function App({ Component, pageProps }) {
+
+  const router = useRouter();
+  const projectPath = router.pathname.split('/')[2];
+  
   return (
     <>
       <Helmet>
@@ -29,10 +34,14 @@ export default function App({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet" />       
       </Helmet>
       <GlobalStyle />
-      <Layout>
+      {
+        projectPath === undefined ?
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+        :
         <Component {...pageProps} />
-      </Layout>
- 
+      }
     </>
   )
 }
