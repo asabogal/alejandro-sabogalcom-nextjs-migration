@@ -31,6 +31,7 @@ const NavContainer = styled.div`
   p {
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
   }
   span {
     margin-right:8px;
