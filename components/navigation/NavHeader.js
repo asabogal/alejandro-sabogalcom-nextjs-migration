@@ -13,7 +13,7 @@ const NavHeader = (props) => {
         </MenuButton>
         <div>
           <SocialBar
-          size='1.5x'
+          size='1x'
           color='#1E4051'
           />
         </div>
