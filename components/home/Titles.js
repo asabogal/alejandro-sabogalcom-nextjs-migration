@@ -8,7 +8,7 @@ const Titles = () => {
       <Container>
       <h1>ALEJANDRO SABOGAL</h1>
       <h2>SOFTWARE & WEB DEVELOPER</h2>
-      <h3>React | JavaScript | Node | Ruby | Rails</h3>
+      <h3>React | Next.js | Node/Express | Ruby | Rails</h3>
       </Container>
     </Fade>
   );
