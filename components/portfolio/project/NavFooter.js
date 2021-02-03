@@ -67,6 +67,7 @@ const NavItem = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 15px;
+  cursor: pointer;
   section {
     display: grid;
     grid-template-rows: auto auto;
