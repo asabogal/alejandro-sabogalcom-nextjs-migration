@@ -2,10 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  
   return (
     <Container>
       <div>
-        <p>&copy; 2020 - Alejandro Sabogal</p>
+        <p>&copy; {`${year} - Alejandro Sabogal`}</p>
       </div>
       <SocialFooter>
         <a href="https://www.github.com/asabogal" target="_blank" rel="noopener noreferrer"> 
