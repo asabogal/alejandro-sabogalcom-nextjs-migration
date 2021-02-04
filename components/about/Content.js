@@ -9,11 +9,11 @@ const Content = () => {
   const cardContent = {
     frontEnd: {
       title: 'Front End Development',
-      paragraph: 'React, Hooks/Context, Redux, JavaScript, HTML5, CSS3, Responsive Design, Styled Components, Bootstrap, Material UI'
+      paragraph: 'React, Next.js, Hooks, Context, Redux, JavaScript, HTML5, CSS3, Responsive Design, Styled Components, Bootstrap, Material UI'
     },
     backEnd: {
       title: 'Back End Architecture',
-      paragraph: 'Ruby, Ruby on Rails, Node, Express, SQL, Postgres, Google Cloud Platform, Google Firebase, Heroku'
+      paragraph: 'Ruby, Ruby on Rails, Node/Express, SQL, Postgres, Google Cloud Platform, Google Firebase, Heroku, Vercel'
     }
   }
 
