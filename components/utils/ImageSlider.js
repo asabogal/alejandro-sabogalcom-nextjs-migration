@@ -74,19 +74,16 @@ const Slide = styled.div`
   transition: 0.5s;
   overflow: hidden;
   position: relative;
-  img {
-    max-width: 100%;
-    height: auto;
-    min-height: 100%;
-    object-fit: contain;
-  }
 `;
 
 const Image = styled.img`
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: contain;
   margin: 0 auto;
+  box-shadow: 10px 0px 50px rgba(0,0,0,0.7);
 `;
 
 const Button = styled.button`
@@ -98,6 +95,9 @@ const Button = styled.button`
   height: 100%;
   border: none;
   cursor: pointer;
+  &:after {
+    content:'';
+  };
   :hover {
     background-color: rgba(0,0,0,0.4);
   }
