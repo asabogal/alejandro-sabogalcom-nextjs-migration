@@ -18,12 +18,22 @@ import ktC5 from '../public/images/freelance_images/kontiki/5_c.jpg';
 import ktC6 from '../public/images/freelance_images/kontiki/6_c.jpg';
 import ktC7 from '../public/images/freelance_images/kontiki/7_c.jpg';
 import ktC8 from '../public/images/freelance_images/kontiki/8_c.jpg';
+// antibody club
+import acFeatured from '../public/images/freelance_images/antibody/featured.jpg';
+import acC1 from '../public/images/freelance_images/antibody/1_c.jpg';
+import acC2 from '../public/images/freelance_images/antibody/2_c.jpg';
+import acC3 from '../public/images/freelance_images/antibody/3_c.jpg';
+import acC4 from '../public/images/freelance_images/antibody/4_c.jpg';
+import acC5 from '../public/images/freelance_images/antibody/5_c.jpg';
+import acC6 from '../public/images/freelance_images/antibody/6_c.jpg';
+import acC7 from '../public/images/freelance_images/antibody/7_c.jpg';
+import acC8 from '../public/images/freelance_images/antibody/8_c.jpg';
 
 
 export const freelanceData = [
   {
     id: 1,
-    year: 2020,
+    year: 2019,
     name: 'The Gallery Hotel',
     heading: 'Gallery Hotel Website',
     description: "The Gallery is a stylish boutique hotel in Greenport, NY. I designed a brand new site from scratch, moving from an antiquated, templated version, to a more modern design, giving the site a reflection and feel of the hotel’s esthetic. Additionally, I created a guest and visitor database through Google's Firebase integration.",
@@ -51,6 +61,22 @@ export const freelanceData = [
     images: {
       featured: ktFeatured,
       carousel: [ktC1, ktC2, ktC3, ktC4, ktC5, ktC6, ktC7, ktC8],
+    }
+  },
+  {
+    id: 3,
+    year: 2020,
+    name: 'Antib0dy Club',
+    heading: 'Antib0dy Club',
+    description: "As a venue and public space, Antibody Club exists to support local organizations through art and music in a 3D environment. As their lead React Developer, I was brought in to code the App's onboarding microsite, translating designs into life, and adding custom navigation and animation functionality. I also integrated a user authentication system, and back end Api communication features with the use of custom coded React Hooks.",
+    role: "React Developer, Front End Developer",
+    stack: ['React', 'React Router', 'Styled-Components', 'Axios'],
+    employerUrl: null,
+    url: 'https://antib0dy.club/',
+    path:'antibodyclub',
+    images: {
+      featured: acFeatured,
+      carousel: [acC1, acC2, acC3, acC4, acC5, acC6, acC7, acC8],
     }
   },
 ]
