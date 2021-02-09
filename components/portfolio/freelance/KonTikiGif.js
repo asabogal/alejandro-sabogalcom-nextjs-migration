@@ -19,6 +19,7 @@ const Container = styled.div`
   height: 90vh;
   width: 55vw;
   padding-bottom: 20px;
+  margin-right: 7vw;
   background-color: black;
   @media (max-width: 1025px) {
     width: 100%;
@@ -32,7 +33,7 @@ const Container = styled.div`
 
 const ImageContainer = styled.div`
 margin: 0 auto;
-width: 80%;
+width: 70%;
 height: 80%;
 align-self: center;
 justify-self: center;
