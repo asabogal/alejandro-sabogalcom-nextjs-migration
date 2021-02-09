@@ -22,19 +22,19 @@ const PortfolioPage = () => {
       <Container>
       <Title
         title="Freelance Work"
-        description="A collection of professional projects showcasing my experience as the main, and single front end developer role."
+        description="A collection of professional projects showcasing my experience on multiple front end developer roles."
         />
       <FreelanceHeaders/>
       <Title
         title="Personal Projects"
-        description="Deployed, production ready, front and back end architected applications"
+        description="Deployed, production ready, front and back end architected applications."
         />
       <PersonalProjectHeaders/>
     </Container>
     <Container>
       <Title
         title="Front End Exercises"
-        description="A collection of small web applications sharpening fundamental and advanced front-end development skills"
+        description="A collection of small web applications sharpening fundamental and advanced front-end development skills."
         />
       <Excercises/>
     </Container>
