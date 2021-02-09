@@ -39,7 +39,7 @@ const InfoDetails = ({project}) => {
         <ul>
           <li>
             <h4>EMPLOYER</h4>
-            <a href={employerUrl} target="_blank" rel="noopener noreferrer">{name}</a>
+            <a href={employerUrl} target="_blank" rel="noopener noreferrer">{employer}</a>
           </li>
         </ul>
       }
