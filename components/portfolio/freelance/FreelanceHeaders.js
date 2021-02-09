@@ -4,12 +4,34 @@ import Fade from 'react-reveal/Fade';
 
 import galleryhotel from '../../../public/images/freelance_images/gallery-hotel/featured.jpg';
 import kontiki from '../../../public/images/freelance_images/kontiki/featured.jpg';
+import antibody from '../../../public/images/freelance_images/antibody/featured.jpg';
+import offgrid from '../../../public/images/freelance_images/offgrid/featured.jpg';
 
 
 const Headers = () => {
   return (
     <Container>
       <Fade up>
+        <div>
+          <Link href='/portfolio/offgrid'>
+          <a>
+            <h2>Off-Grid</h2>
+            <img src={offgrid} alt='offgridfeatured'/>
+          </a>
+          </Link>
+        </div>
+      </Fade>
+      <Fade>
+        <div>
+          <Link href='/portfolio/antibodyclub'>
+          <a>
+            <h2>Antib0dy Club</h2>
+            <img src={antibody} alt='antibodyClub-featured'/>
+          </a>
+          </Link>
+        </div>
+      </Fade>
+      <Fade>
         <div>
           <Link href='/portfolio/kontiki'>
           <a>
@@ -37,7 +59,7 @@ export default Headers;
 
 const Container = styled.div`
   display: grid;
-  grid-template-rows: repeat(2, 65vh);
+  grid-template-rows: repeat(4, 65vh);
   grid-template-columns: auto;
   justify-items: center;
   align-items: center;
