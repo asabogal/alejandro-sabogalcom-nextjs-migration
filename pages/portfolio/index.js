@@ -2,17 +2,11 @@ import { useEffect } from 'react';
 import styled from 'styled-components';
 import Excercises from '../../components/portfolio/sections/Exercises';
 import Title from '../../components/portfolio/Title';
-import Headers from '../../components/portfolio/Headers';
+import FreelanceHeaders from '../../components/portfolio/freelance/FreelanceHeaders';
+import PersonalProjectHeaders from '../../components/portfolio/PersonalProjectHeaders';
 import ToTop from '../../components/utils/ToTop';
 
 const PortfolioPage = () => {
-
-  // Refresh projectPage from cache and scroll to top
-  // componentWillReceiveProps(nextProps) {
-  //   if (nextProps.location.pathname !== this.props.location.pathname) { 
-  //     window.location.reload(false);
-  //   }
-  // }
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,10 +21,15 @@ const PortfolioPage = () => {
     <div>
       <Container>
       <Title
-        title="Full Stack Development"
+        title="Freelance Work"
+        description="A collection of professional projects showcasing my experience as the main, and single front end developer role."
+        />
+      <FreelanceHeaders/>
+      <Title
+        title="Personal Projects"
         description="Deployed, production ready, front and back end architected applications"
         />
-      <Headers/>
+      <PersonalProjectHeaders/>
     </Container>
     <Container>
       <Title
