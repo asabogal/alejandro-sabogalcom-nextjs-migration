@@ -21,6 +21,7 @@ const Container = styled.div`
   padding-bottom: 20px;
   margin-right: 7vw;
   background-color: black;
+  box-shadow: 10px 0px 20px rgba(0,0,0,0.7);
   @media (max-width: 1025px) {
     width: 100%;
     img {
