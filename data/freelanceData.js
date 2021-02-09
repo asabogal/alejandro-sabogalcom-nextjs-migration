@@ -28,6 +28,16 @@ import acC5 from '../public/images/freelance_images/antibody/5_c.jpg';
 import acC6 from '../public/images/freelance_images/antibody/6_c.jpg';
 import acC7 from '../public/images/freelance_images/antibody/7_c.jpg';
 import acC8 from '../public/images/freelance_images/antibody/8_c.jpg';
+// off grid
+import ogFeatured from '../public/images/freelance_images/offgrid/featured.jpg';
+import ogC1 from '../public/images/freelance_images/offgrid/1_c.jpg';
+import ogC2 from '../public/images/freelance_images/offgrid/2_c.jpg';
+import ogC3 from '../public/images/freelance_images/offgrid/3_c.jpg';
+import ogC4 from '../public/images/freelance_images/offgrid/4_c.jpg';
+import ogC5 from '../public/images/freelance_images/offgrid/5_c.jpg';
+import ogC6 from '../public/images/freelance_images/offgrid/6_c.jpg';
+import ogC7 from '../public/images/freelance_images/offgrid/7_c.jpg';
+import ogC8 from '../public/images/freelance_images/offgrid/8_c.jpg';
 
 
 export const freelanceData = [
@@ -39,6 +49,7 @@ export const freelanceData = [
     description: "The Gallery is a stylish boutique hotel in Greenport, NY. I designed a brand new site from scratch, moving from an antiquated, templated version, to a more modern design, giving the site a reflection and feel of the hotel’s esthetic. Additionally, I created a guest and visitor database through Google's Firebase integration.",
     role: "React/Next.js Developer, UX/UI Designer",
     stack: ['React', 'Next.js', 'Styled-Components', 'Google Cloud Platform', 'Google Firebase'],
+    employer: null,
     employerUrl: null,
     url: 'https://galleryhotelny.com/',
     path:'galleryhotel',
@@ -55,6 +66,7 @@ export const freelanceData = [
     description: "Kon-Tiki is a one of a kind restaurant and bar in Greenport, NY. They asked for a simple, mobile friendly website that was custom made to their needs. My approach to this design was mobile-first and minimalistic. The core of this project however, lies on the back end Admin Dashboard App. They needed an Admin control center to manage their guest reservations and menus. For this, I created an Express server and utilized MongoDB to manage the Admin authentication, the guest reservations system, and menu databases.",
     role: "React/Next.js and Node Developer",
     stack: ['Next.js', 'React', 'Styled-Components', 'Node/Express', 'MongoDB'],
+    employer: null,
     employerUrl: null,
     url: 'https://kontiki-gp.com/',
     path:'kontiki',
@@ -71,12 +83,30 @@ export const freelanceData = [
     description: "As a venue and public space, Antibody Club exists to support local organizations through art and music in a 3D environment. As their lead React Developer, I was brought in to code the App's onboarding microsite, translating designs into life, and adding custom navigation and animation functionality. I also integrated a user authentication system, and back end Api communication features with the use of custom coded React Hooks.",
     role: "React Developer, Front End Developer",
     stack: ['React', 'React Router', 'Styled-Components', 'Axios'],
-    employerUrl: null,
+    employer: "The Umbrella",
+    employerUrl: "https://www.theumbrella.nyc/",
     url: 'https://antib0dy.club/',
     path:'antibodyclub',
     images: {
       featured: acFeatured,
       carousel: [acC1, acC2, acC3, acC4, acC5, acC6, acC7, acC8],
+    }
+  },
+  {
+    id: 4,
+    year: 2020,
+    name: 'Off-Grid',
+    heading: 'Off-Grid (in progress)',
+    description: "Off-Grid offers online communications through 3D environments and chat rooms. As their lead React Developer, I was brought in to code the App's onboarding microsite, translating designs into life, and adding custom functionality. I integrated a user authentication system, with Auth0 and back end Api communication features with the use of custom coded React Hooks.",
+    role: "React Developer, Front End Developer",
+    stack: ['React', 'React Router', 'Styled-Components', 'Axios', 'Auth0', 'Goolge SDK', 'Facebook SDK'],
+    employer: "The Umbrella",
+    employerUrl: "https://www.theumbrella.nyc/",
+    url: 'https://alejandro-sabogal.com/portfolio/offgrid',
+    path:'offgrid',
+    images: {
+      featured: ogFeatured,
+      carousel: [ogC1, ogC2, ogC3, ogC4, ogC5, ogC6, ogC7, ogC8],
     }
   },
 ]
