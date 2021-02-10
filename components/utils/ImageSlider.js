@@ -101,6 +101,9 @@ const Button = styled.button`
   :hover {
     background-color: rgba(0,0,0,0.4);
   }
+  @media (max-width: 499px) {
+    width: 12vw;
+  }
 `;
 
 const LeftButton = styled(Button)`
