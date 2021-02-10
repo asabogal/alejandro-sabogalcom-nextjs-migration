@@ -68,10 +68,6 @@ const NavItem = styled.div`
   grid-template-columns: auto auto;
   grid-gap: 15px;
   cursor: pointer;
-  section {
-    display: grid;
-    grid-template-rows: auto auto;
-  }
   div {
     align-items: center;
     font-size: 25px;
@@ -87,13 +83,15 @@ const NavItem = styled.div`
   }
   
   @media (max-width: 780px) {
-    margin: 80px 0px;
+    grid-template-rows: 14px 18px;
+    margin: 0px 0px;
     h3 {
       font-size: 20px;
     }
   }
   @media (max-width: 600px) {
-    margin: 30px 0px;
+    grid-template-rows: 14px 18px;
+    margin: 0px 0px;
     p {
       font-size: 14px;
     }
