@@ -11,7 +11,6 @@ const MainImage = (props) => {
 export default MainImage;
 
 const ImageContainer = styled.div`
-  max-height: 100vh;
   flex: 1 1;
   img {
     width: 55vw;
