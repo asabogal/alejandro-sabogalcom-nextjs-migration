@@ -64,6 +64,7 @@ const Slider = styled.div`
   overflow: hidden;
   @media (max-width: 599px) {
     width: 90%;
+    height: 30vh;
   }
 `;
 
@@ -71,6 +72,7 @@ const Slide = styled.div`
   min-width: 100%;
   width: 100%;
   min-height: 100%;
+  height: 100%;
   transition: 0.5s;
   overflow: hidden;
   position: relative;
@@ -84,6 +86,11 @@ const Image = styled.img`
   object-fit: contain;
   margin: 0 auto;
   box-shadow: 10px 0px 50px rgba(0,0,0,0.7);
+  @media (max-width: 599px) {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 const Button = styled.button`
