@@ -104,7 +104,7 @@ const NavItem = styled.div`
   @media (max-width: 565px) {
     grid-template-rows: 14px 18px;
     h3 {
-      display: none;
+      font-size: 12px;
     }
   }
 `;
