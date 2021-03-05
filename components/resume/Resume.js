@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 const Resume = () => {
 
-  const samplePDF = './AlejandroSabogal-SoftwareDevResume.pdf'
+  const resumePDF = './AlejandroSabogal-SoftwareDevResume.pdf'
 
   return (
     <ResumeContainer>
       <embed
-        className="resume"
-        src={samplePDF}
+        src={resumePDF}
         type="application/pdf"
       />    
     </ResumeContainer>
@@ -27,4 +26,3 @@ const ResumeContainer = styled.div`
   width: 100%;
   }
 `;
-
