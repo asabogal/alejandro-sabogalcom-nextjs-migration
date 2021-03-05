@@ -19,7 +19,8 @@
     "react-helmet": "^6.1.0",
     "react-is": "^16.8.0",
     "react-reveal": "^1.2.2",
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.0.0",
+    "webpack": "^4.0.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0"
